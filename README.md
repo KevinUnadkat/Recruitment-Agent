@@ -50,7 +50,8 @@ Obtain your API key from Google AI Studio.
 Set it as an environment variable:
 
 export GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
-# For Windows, use `set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY`
+# For Windows
+use `set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY`
 
 Alternatively, you can directly set GEMINI_API_KEY in main.py, but using environment variables is recommended for security.
 
