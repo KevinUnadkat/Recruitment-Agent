@@ -30,7 +30,7 @@ Generates empathetic rejection emails for other candidates.
 🔧 Setup Instructions
 Clone the repository:
 
-git clone https://github.com/KevinUnadkat/Recruitment-Agent.git
+git clone https://github.com/KevinUnadkat/recruitment-agent.git
 
 Create a virtual environment and activate it (recommended):
 
