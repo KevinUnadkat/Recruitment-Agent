@@ -1,7 +1,8 @@
-#Recruitment AI Agent#
+# Recruitment AI Agent
+
 This project implements a Recruitment AI Agent using FastAPI for the backend and Streamlit for the frontend. It helps HR professionals streamline the hiring process by automating job description generation, resume matching, and email communication.
 
-#Features#
+# Features
 Job Description Input:
 
 Generate JDs using Gemini based on job title, experience, skills, company, employment type, industry, and location.
