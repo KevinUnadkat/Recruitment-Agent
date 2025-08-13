@@ -79,7 +79,8 @@ The _jd_prompt function in main.py crafts a detailed prompt for Gemini, instruct
 
 It specifies the required headings, tone, length, and incorporates all user-provided inputs (job title, experience, skills, etc.).
 
-Why Gemini-2.0-Flash? Chosen for its balance of performance (fast response times suitable for interactive generation), cost-effectiveness, and strong text generation capabilities to produce coherent and professionally formatted job descriptions.
+# Why Gemini-2.0-Flash? 
+Chosen for its balance of performance (fast response times suitable for interactive generation), cost-effectiveness, and strong text generation capabilities to produce coherent and professionally formatted job descriptions.
 
 Resume Matching and Scoring:
 
@@ -89,15 +90,15 @@ It guides Gemini to act as an expert technical recruiter and output a JSON objec
 
 A regular expression is used to robustly extract the JSON object from Gemini's response.
 
-Why Gemini-2.0-Flash? Its ability to follow strict JSON output instructions and accurately compare two substantial text inputs (JD and resume) is crucial. The model's accuracy in identifying skill matches and gaps directly impacts the quality of the candidate evaluation.
+Its ability to follow strict JSON output instructions and accurately compare two substantial text inputs (JD and resume) is crucial. The model's accuracy in identifying skill matches and gaps directly impacts the quality of the candidate evaluation.
 
-Email Generation (Acceptance/Rejection):
+✉️Email Generation (Acceptance/Rejection):
 
 The _email_prompt function in main.py dynamically creates prompts based on whether an acceptance or rejection email is needed.
 
 It provides context such as candidate name, role, company, interview details (for invites), and specifies the desired tone and length.
 
-Why Gemini-2.0-Flash? Its versatility in generating natural, empathetic, or professional text, combined with the ability to adhere to length constraints and specific instructions, makes it ideal for crafting personalized and appropriate emails.
+Its versatility in generating natural, empathetic, or professional text, combined with the ability to adhere to length constraints and specific instructions, makes it ideal for crafting personalized and appropriate emails.
 
 🧪 Example JD and Resume Files
 To test the application, you can use:
